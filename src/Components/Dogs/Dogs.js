@@ -1,14 +1,15 @@
 import React from 'react';
 import {Container} from 'reactstrap';
- 
+import DogFetch from './DogIndex';
+
 const Dogs = () => {
 
   return (
     <Container className="App">
       <br />
-      <h1 className="App-intro">
+      <h6 className="App-intro">
         For this challenge, write the logic to accomplish the following:
-      </h1>
+      </h6>
       <hr/>
       <ul>
         <li>Fetch a random image from this api: <a href="https://dog.ceo/dog-api/">here</a></li>
@@ -18,6 +19,7 @@ const Dogs = () => {
         <li>Make sure to include some good practice error handling</li>
       </ul>
       <hr />
+      <DogFetch />
     </Container>
   );
 

@@ -1,13 +1,14 @@
 import React from 'react';
 import {Container} from 'reactstrap';
+import ToDoList from './ToDoIndex';
 
 const ToDo = () => {
   return(
     <Container className="App">
      <br />
-       <h1 className="App-intro">
+       <h6 className="App-intro">
      In this challenge your goal is to create a to do list: 
-       </h1>
+       </h6>
        <hr />
        <ul>
          <li>
@@ -24,6 +25,7 @@ const ToDo = () => {
          </li>
        </ul>
        <hr />
+       <ToDoList />
      </Container>
   );
 };
