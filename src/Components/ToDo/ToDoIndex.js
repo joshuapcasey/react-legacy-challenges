@@ -61,7 +61,7 @@ export default class ToDoList extends Component{
                         <tr>
                         <th>#</th>
                         <th>Tasks To Do</th>
-                        <th>Status</th>
+                        <th>Update Status</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -81,7 +81,7 @@ export default class ToDoList extends Component{
                         <tr>
                         <th>#</th>
                         <th>Completed Tasks</th>
-                        <th>Status</th>
+                        <th>Update Status</th>
                         </tr>
                     </thead>
                     <tbody>
